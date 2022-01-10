@@ -1,0 +1,63 @@
+
+  
+  /* Responsive columns */
+  @media screen and (max-width: 1000px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+      height: auto;
+    }
+  }
+  
+  /* Style the counter cards */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    text-align: center;
+    font-family: arial;
+    padding: 16px;
+    text-align: center;
+    background-color: #ffffff;
+
+}
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 20%;
+    font-size: 18px;
+  }
+ 
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  .column .image{
+  margin: 10px 0;
+  height: 150px;
+  width: 150px;
+  background: #c7c3c9;
+  padding: 3px;
+  border-radius: 50%;
+
+}
+.image {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgb(121, 104, 194);
+}
